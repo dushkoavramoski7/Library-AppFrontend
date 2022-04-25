@@ -5,7 +5,7 @@ const header = (props) => {
     return (
         <header className="ms-10">
             <nav className="navbar navbar-expand-md navbar-dark navbar-fixed bg-dark">
-                <a className="navbar-brand" href="/books">Library</a>
+                <a className="navbar-brand" href="/books"> <span> </span>    Library</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
