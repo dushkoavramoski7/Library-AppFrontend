@@ -59,7 +59,7 @@ class Books extends React.Component {
                                 onClick={() => this.props.onDelete(term.id)}
                         >Delete </button>
                         <span> & </span>
-                        <Link className={"btn btn-outline-dark ml-2"}
+                        <Link className={"btn btn-outline-dark ml-2 "}
                               onClick={() => this.props.onEdit(term.id)}
                               to={`/books/edit/${term.id}`}>
                             Edit
@@ -67,7 +67,7 @@ class Books extends React.Component {
                     </td>
                     <td>
                         <button onClick={() => this.props.onOrder(term.id)}
-                                className={"btn btn-outline-dark"}
+                                className={"btn btn-outline-success "}
                                 disabled={term.availableCopies==0}>Select</button>
                     </td>
                 </tr>

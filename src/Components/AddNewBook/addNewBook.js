@@ -32,7 +32,7 @@ const AddNewBook = (props) => {
 
 
     return (
-        <div className="row mt-10 m-4">
+        <div className="row mt-10 m-10" style={{marginLeft: "350px", marginTop: "50px"}}>
             <div className="col-md-5 m-4">
                 <form onSubmit={onFormSubmit}>
                     <div className="form-group">
@@ -73,7 +73,8 @@ const AddNewBook = (props) => {
                             )}
                         </select>
                     </div>
-                    <button id="submit" type="submit" className="btn btn-primary">Submit</button>
+                    <br/>
+                    <button id="submit" type="submit" className="btn btn-dark">Submit</button>
                 </form>
             </div>
         </div>
